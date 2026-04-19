@@ -14,39 +14,39 @@ const PRODUCTS = [
   {
     id: 'jaay-app',
     name: 'Jaay App',
-    tagline: 'The Super App for Your Business',
-    description: 'NFC-powered digital business cards, dynamic links, AI landing pages, and a complete digital identity for modern businesses. Tap, share, and convert — all from one platform.',
+    tagline: 'Complete Business & Commerce Ecosystem',
+    description: 'An all-in-one platform for modern businesses — e-commerce store builder, AI-powered tools, NFC digital cards, booking & appointments, email campaigns, loyalty programs, and 15+ standalone add-ons. Everything you need to run and grow your business, zero commission.',
     status: 'live' as const,
     color: 'from-orange-500 to-amber-500',
     bgGlow: 'bg-orange-500/20',
     icon: Smartphone,
     url: 'https://jaay.app',
     features: [
-      'NFC Digital Business Cards',
-      'AI Landing Page Builder',
-      'Dynamic QR & Short Links',
-      'Lead Capture & Analytics',
-      'Custom Branding & Domains',
-      'Team Management',
+      'E-commerce Store Builder',
+      'AI Chatbot & Landing Pages',
+      'Booking & Appointments',
+      'NFC Cards & Digital Profiles',
+      'Email Campaigns & Loyalty',
+      '15+ Standalone Add-ons',
     ],
   },
   {
     id: 'jaay-commerce',
     name: 'JaayCommerce',
-    tagline: 'Sell Online. Zero Commission.',
-    description: 'Complete e-commerce platform with product management, orders, payments (Razorpay), shipping integration, inventory tracking, and AI-powered tools. Built for Indian sellers.',
+    tagline: 'Our Official Online Store',
+    description: 'The official Jaay Commerce store — shop NFC business cards, smart tags, digital accessories, and premium business tools. Built on the Jaay platform, powered by Razorpay payments and fast shipping across India.',
     status: 'live' as const,
     color: 'from-violet-500 to-purple-600',
     bgGlow: 'bg-violet-500/20',
     icon: Store,
-    url: 'https://jaay.app',
+    url: 'https://jaaycommerce.com',
     features: [
-      'Product & Order Management',
-      'Razorpay & UPI Payments',
-      'Shiprocket Shipping Integration',
-      'GST-Compliant Invoicing',
-      'AI Chatbot & Email Campaigns',
-      '15+ Standalone Add-ons',
+      'NFC Business Cards & Tags',
+      'Smart Digital Accessories',
+      'Secure Razorpay Payments',
+      'Fast Pan-India Shipping',
+      'Bulk & Corporate Orders',
+      'Custom Branding Options',
     ],
   },
   {
@@ -428,7 +428,7 @@ export default function JaayTechnologyPage() {
               <h4 className="text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-3">Products</h4>
               <div className="space-y-2 text-sm text-zinc-500">
                 <a href="https://jaay.app" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition-colors">Jaay App</a>
-                <a href="https://jaay.app" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition-colors">JaayCommerce</a>
+                <a href="https://jaaycommerce.com" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition-colors">JaayCommerce</a>
                 <span className="block text-zinc-600">JaayTravel (Soon)</span>
                 <span className="block text-zinc-600">JaayService (Soon)</span>
                 <span className="block text-zinc-600">JaayVault (Soon)</span>
